@@ -14,7 +14,7 @@ class DSU {
           }
         }
 
-        int find(x){
+        int find(int x){
           if (parent[x]==x) return x;
           return parent[x]=find(parent[x]);
         }
@@ -39,4 +39,4 @@ class DSU {
         int maxSize(){
             return numberOfComponents;
         }
-}
+};
