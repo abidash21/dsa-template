@@ -40,4 +40,4 @@ class DSU{
       int maxSize(){
         return numberOfComponents;
       }
-}
+};
