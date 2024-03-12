@@ -1,13 +1,13 @@
 class DSU{
     vector<int>parent;
     vector<int>size;
-    int numberOfComponents=n;
+    int numberOfComponents;
 
     public:
       DSU(int n){
         parent.resize(n);
         size.resize(n);
-        numberOfComponents;
+        numberOfComponents=n;
         for (int i=0;i<n;i++){
             parent[i]=i;
             size[i]=1;
