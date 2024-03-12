@@ -1,7 +1,7 @@
 class DSU{
     vector<int>parent;
     vector<int>size;
-    int numberOfComponents;
+    int numberOfComponents=n;
 
     public:
       DSU(int n){
