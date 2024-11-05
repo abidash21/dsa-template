@@ -1,4 +1,8 @@
-    void dfs(int node, vector<int> adj[],stack<int>&st,vector<int>&vis){
+    /*
+	    Topological Sort is a linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge 
+		u->v, vertex u comes before vertex v before ordering.
+	*/
+	void dfs(int node, vector<int> adj[],stack<int>&st,vector<int>&vis){
 	    vis[node]=1;
 	    for (auto it:adj[node]){
 	        if (!vis[it])
