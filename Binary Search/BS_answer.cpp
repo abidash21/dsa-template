@@ -32,3 +32,30 @@
         }
         return speed;
     }
+
+
+/*
+If you are using:
+
+e = mid - 1
+s = mid + 1
+
+ Use while (s <= e)
+
+If you are using:
+
+e = mid
+s = mid + 1
+
+Use while (s < e)
+
+ Easy Way To Remember (Interview Trick)
+
+Ask yourself:
+
+"Am I eliminating mid completely?"
+
+Yes → use <=
+
+No → use <
+  */
